@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\src",
+    "\\src\\layout",
+    "\\src\\views",
+    "\\src\\views\\components",
+    "\\src\\views\\components\\Topics"
+  ],
+  "SelectedNode": "\\src\\layout\\AppHeader.vue",
+  "PreviewInSolutionExplorer": false
+}
