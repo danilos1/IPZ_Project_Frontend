@@ -11,7 +11,7 @@
         <div class="row row-grid align-items-center my-sm">
                 <div class="col-sm my-0">
                     <ul>
-                        <li><h6 class="mb-0 font-weight-light">Вступ до JS.</h6></li>
+                        <li><router-link to="/editor" class="dropdown-item">Вступ до JS</router-link></li>
                         <li><h6 class="mb-0 font-weight-light">Література та документація</h6></li>
                     </ul>
                 </div>

@@ -7,6 +7,7 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import Editor from "./views/Editor.vue";
 
 Vue.use(Router);
 
@@ -55,6 +56,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/editor",
+      name: "editor",
+      components: {
+        header: AppHeader,
+        default: Editor,
         footer: AppFooter
       }
     }
